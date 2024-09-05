@@ -14,28 +14,30 @@ function page() {
         <h2 className="mb-3 text-3xl font-bold text-center">Login</h2>
         <p>How do I get started lorem ipsum dolar at?</p>
         <div className="flex flex-col items-center w-full mt-7">
-          <div className="flex bg-[#F0EDFF] h-14 w-full">
-            <span class="flex items-center leading-normal bg-grey-lighter rounded rounded-r-none border border-r-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-2xl">
+
+          
+          <div className="flex bg-[#F0EDFF] h-14 w-full rounded-2xl">
+            <span class="flex items-center leading-normal rounded rounded-r-none border-r-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-2xl">
               <IoPersonCircleSharp />
             </span>
             <Input
               placeholder="Username"
-              className=" bg-[#F0EDFF] h-14 rounded-l-none border border-l-0 "
+              className=" bg-[#F0EDFF] h-14 rounded-l-none border-l-0 rounded-2xl"
             />
           </div>
-          <div className="flex mt-[1.125rem] bg-[#F0EDFF] h-14 w-full">
-            <span class="flex items-center leading-normal bg-grey-lighter rounded rounded-r-none border border-r-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-2xl">
+          <div className="flex mt-[1.125rem] bg-[#F0EDFF] h-14 w-full rounded-2xl">
+            <span class="flex items-center leading-normal rounded rounded-r-none border-r-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-2xl">
               <CiLock/>
             </span>
             <Input
               placeholder="Password"
-              className=" bg-[#F0EDFF] h-14 rounded-l-none border border-l-0 "
+              className=" bg-[#F0EDFF] h-14  rounded-2xl"
             />
           </div>
           <Button className="bg-gradient-to-r from-[#9181F4] to-[#5038ED] w-[7.75rem] h-[3.25rem] mt-6">
             Login
           </Button>
-          <p className="mt-6">Login with others</p>
+          <p className="mt-6">---------Login with others---------</p>
           <div className="flex flex-col w-full mt-6 space-y-4">
             <Button className="w-full h-14 bg-[#F0EDFF] text-black hover:text-white  text-lg">
               <FaGoogle /> Login with Google
