@@ -6,6 +6,7 @@ import { CiLock } from "react-icons/ci";
 import { IoPersonCircleSharp } from "react-icons/io5";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 function page() {
   const rightSide = (
@@ -52,9 +53,11 @@ function page() {
             className=" bg-[#F0EDFF] h-14  rounded-2xl"
           />
         </div>
-        <Button className="bg-gradient-to-r from-[#9181F4] to-[#5038ED] w-[7.75rem] h-[3.25rem] mt-6">
-          Login
-        </Button>
+        <Link href="/">
+          <Button className="bg-gradient-to-r from-[#9181F4] to-[#5038ED] w-[7.75rem] h-[3.25rem] mt-6">
+            Login
+          </Button>
+        </Link>
         <p className="mt-6">---------Login with others---------</p>
         <div className="flex flex-col w-full mt-6 space-y-4">
           <Button className="w-full h-14 bg-[#F0EDFF] text-black hover:text-white  text-lg">
